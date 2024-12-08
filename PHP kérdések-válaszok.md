@@ -15,11 +15,12 @@
 - Hogyan integrálnál egy külső REST API-t egy meglévő PHP alkalmazásba?
 ## Biztonsági kérdések
 
-- XSS (Cross-site scripting)
-- CSRF (Cross-site request forgery)
-- IDOR
-- SQL injection
-- Session hijacking
+- [[XSS (Cross-site scripting)]]
+- [[CSRF (Cross-site request forgery)]]
+- [[IDOR]]
+- [[SQL injection]]
+- [[Session hijacking]]
+- [[Session sniffing]]
 ## System design
 
 - [[TDD (Test Driven Development)]]
