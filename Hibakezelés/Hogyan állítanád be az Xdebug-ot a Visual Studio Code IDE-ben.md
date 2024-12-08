@@ -11,12 +11,12 @@ Az Xdebug beállítása Visual Studio Code IDE-ben a következő lépéseket fog
 
    - Add hozzá a következő sorokat:
 
-     ```ini
+```ini
      zend_extension=xdebug
      xdebug.mode=debug
      xdebug.client_host=localhost
      xdebug.client_port=9003
-     ```
+```
 
 3. Telepítsd a PHP Debug kiterjesztést a VS Code-ban
 

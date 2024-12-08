@@ -4,16 +4,16 @@ A GitLab CI/CD beállítása egy meglévő PHP projektben a következő lépése
 
 2. Definiáld a pipeline szakaszait (stages) a `.gitlab-ci.yml` fájlban, például:
 
-   ```yaml
+```yaml
    stages:
      - build
      - test
      - deploy
-   ```
+```
 
 3. Állítsd be a szükséges feladatokat (jobs) minden szakaszhoz. Például:
 
-   ```yaml
+```yaml
    build:
      stage: build
      script:
@@ -28,7 +28,7 @@ A GitLab CI/CD beállítása egy meglévő PHP projektben a következő lépése
      stage: deploy
      script:
        - ssh $SERVER_USER@$SERVER_IP "cd /path/to/project && git pull origin master"
-   ```
+```
 
 4. Állítsd be a környezeti változókat a GitLab projektben a Settings &gt; CI/CD &gt; Variables menüpontban. Itt tárolhatod biztonságosan az érzékeny adatokat, mint például a szerver IP címét vagy SSH kulcsokat.
 

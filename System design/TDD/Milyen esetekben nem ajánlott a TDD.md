@@ -2,7 +2,7 @@ A Tesztvezérelt Fejlesztés (TDD) általában hasznos módszer, de vannak esete
 
 ## Bizonytalan követelmények esetén
 
-Ha nem világos, pontosan mit kell megvalósítani, a TDD nem feltétlenül segít[1]. Ilyenkor jobb lehet először egy működő megoldást kidolgozni, és csak utána írni hozzá teszteket.
+Ha nem világos, pontosan mit kell megvalósítani, a TDD nem feltétlenül segít. Ilyenkor jobb lehet először egy működő megoldást kidolgozni, és csak utána írni hozzá teszteket.
 
 ## Gyors prototípusok készítésekor
 

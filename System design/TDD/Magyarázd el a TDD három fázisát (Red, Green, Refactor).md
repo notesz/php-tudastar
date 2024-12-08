@@ -9,7 +9,6 @@ A **Red, Green, Refactor** ciklus a Tesztvezérelt Fejlesztés (TDD) alapvető f
 **Cél:** Egyértelműen definiálni az elvárt eredményt és ellenőrizni, hogy a teszt helyesen működik.
 
 **Példa:**
-
 ```php
 class CalculatorTest extends PHPUnit\Framework\TestCase {
     public function testAddition() {
@@ -20,9 +19,6 @@ class CalculatorTest extends PHPUnit\Framework\TestCase {
 ```
 
 A `Calculator` osztály és az `add` metódus még nem létezik, így a teszt elbukik.
-
----
-
 ## **2. Green (Zöld): Készítsd el a minimális kódot, hogy a teszt sikeres legyen**
 
 - A cél itt az, hogy csak annyi kódot írj meg, ami szükséges ahhoz, hogy a teszt sikeresen lefusson.
@@ -41,9 +37,6 @@ class Calculator {
 ```
 
 Ezzel a minimális implementációval a teszt már zöld lesz.
-
----
-
 ## **3. Refactor (Refaktorálás): Javítsd a kódot minőségileg úgy, hogy a tesztek továbbra is sikeresek legyenek**
 
 - Miután a tesztek sikeresen lefutottak, refaktoráld a kódot annak érdekében, hogy tiszta, olvasható és hatékony legyen.
@@ -67,9 +60,6 @@ class Calculator {
 ```
 
 A refaktorálás során hozzáadhatunk újabb funkciókat vagy javíthatjuk az osztály struktúráját.
-
----
-
 ## Összegzés
 
 A **Red-Green-Refactor** ciklus lényege:

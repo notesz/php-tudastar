@@ -11,12 +11,12 @@ Az Xdebug beállítása PHPStorm IDE-hez a következő lépéseket foglalja mag�
 
    - Szerkeszd a php.ini fájlt, és add hozzá a következő sorokat:
 
-     ```ini
+```ini
      zend_extension="/path/to/your/xdebug.so"
      xdebug.mode=debug
      xdebug.start_with_request=yes
      xdebug.client_port=9003
-     ```
+```
 
 3. Apache újraindítása (ha használod):\
    `sudo service apache2 restart`

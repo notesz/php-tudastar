@@ -1,8 +1,7 @@
 ## Általános kérdések
 
-- [[Általános kérdések/Hogyan tartod naprakészen a PHP és webfejlesztési tudásodat]]
-- [[Általános kérdések/Milyen PHP keretrendszerekkel van tapasztalatod és melyiket preferálod és miért]]
-
+- [[Hogyan tartod naprakészen a PHP és webfejlesztési tudásodat]]
+- [[Milyen PHP keretrendszerekkel van tapasztalatod és melyiket preferálod és miért]]
 ## Optimalizálás és teljesítmény
 
 - Hogyan optimalizálnál egy PHP szkriptet 10 000 egyidejű felhasználó kezelésére?
@@ -21,18 +20,16 @@
 
 ## System design
 
-- [[System design/TDD (Test Driven Development)]]
-- [[System design/CI CD (Continuous Integration, Continuous Deployment)]]
-- [[System design/Software Design Principles (Szoftvertervezési elvek)]]
-- [[System design/Design Patterns (Tervezési minták)]]
+- [[TDD (Test Driven Development)]]
+- [[CI CD (Continuous Integration, Continuous Deployment)]]
+- [[Software Design Principles (Szoftvertervezési elvek)]]
+- [[Design Patterns (Tervezési minták)]]
 
 ## Hibakezelés
 
-- [[Hibakezelés/Hogyan kezelnéd a PHP-ban a hibakeresést]]
-
-- [[Hibakezelés/Hogyan állítanád be az Xdebug-ot a PHPStorm IDE-ben]]
-
-  [[Hibakezelés/Hogyan állítanád be az Xdebug-ot a Visual Studio Code IDE-ben]]
+- [[Hogyan kezelnéd a PHP-ban a hibakeresést]]
+- [[Hogyan állítanád be az Xdebug-ot a PHPStorm IDE-ben]]
+  [[Hogyan állítanád be az Xdebug-ot a Visual Studio Code IDE-ben]]
 
 ## PHP verziók
 
