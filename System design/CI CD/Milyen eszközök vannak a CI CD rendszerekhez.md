@@ -6,7 +6,7 @@ A CI/CD (Continuous Integration/Continuous Delivery) rendszerekhez számos eszk�
 
  2. GitLab CI/CD: A GitLab verziókezelő rendszerbe integrált CI/CD megoldás, amely egységes felületet biztosít a teljes szoftverfejlesztési életciklushoz.
 
- 3. GitHub Actions: A GitHub által kínált CI/CD eszköz, amely közvetlenül a GitHub repozitóriumokkal integrálódik.
+ 3. GitHub Actions: A GitHub által kínált CI/CD eszköz, amely közvetlenül a GitHub repókkal integrálódik.
 
  4. CircleCI: Felhő-alapú CI/CD platform, amely könnyen skálázható és rugalmas megoldást kínál.
 

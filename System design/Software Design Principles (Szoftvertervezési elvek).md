@@ -1,11 +1,11 @@
 ## Alapvető fogalmak
 
-- [[System design/Software Design Principles (Szoftvertervezési elvek)/Mi a Software Design Principles]]
-- [[System design/Software Design Principles (Szoftvertervezési elvek)/SOLID alapelvek]]
+- [[Mi a Software Design Principles]]
+- [[SOLID alapelvek]]
 - DDD (Domain-Driven Design)
-- CQRS (Command Query Responsibility Segregation)
+- [[CQRS]]
 - Event Sourcing
 
 ## A szoftvertervezési elvek gyakorlati alkalmazása
 
-- [[System design/Software Design Principles (Szoftvertervezési elvek)/SOLID alapelvek gyakorlati alkalmazása]]
+- [[SOLID alapelvek gyakorlati alkalmazása]]

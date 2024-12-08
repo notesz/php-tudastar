@@ -8,7 +8,6 @@ Az Xdebug beállítása Visual Studio Code IDE-ben a következő lépéseket fog
 2. Konfiguráld a PHP-t az Xdebug használatához:
 
    - Szerkeszd a php.ini fájlt
-
    - Add hozzá a következő sorokat:
 
 ```ini

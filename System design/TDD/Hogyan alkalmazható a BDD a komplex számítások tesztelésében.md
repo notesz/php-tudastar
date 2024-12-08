@@ -2,7 +2,7 @@ A Behavior-Driven Development (BDD) hatékonyan alkalmazható komplex számítá
 
 ## Dekompozíció
 
-- Bontsuk le a komplex számításokat kisebb, kezelhető lépésekre[1].
+- Bontsuk le a komplex számításokat kisebb, kezelhető lépésekre.
 - Írjunk külön szcenáriókat az egyes részműveletekre, így könnyebben követhetővé és tesztelhetővé válik a teljes folyamat.
 
 ## Gherkin szintaxis használata

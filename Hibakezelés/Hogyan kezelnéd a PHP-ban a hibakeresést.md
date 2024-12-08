@@ -14,7 +14,6 @@ Az egyik legegyszerűbb módszer a változók értékeinek ellenőrzésére:
 
 - Az `error_reporting(E_ALL);` beállításával minden hibát, figyelmeztetést és értesítést megjeleníthetünk fejlesztés közben
 - Érdemes külön php.ini fájlt használni fejlesztéshez és éles környezethez
-
 ## Fejlett technikák
 
 **Xdebug használata**
