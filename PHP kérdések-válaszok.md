@@ -21,6 +21,7 @@
 - [SQL injection](Biztonsági%20kérdések/SQL%20injection.md)
 - [Session hijacking](Biztonsági%20kérdések/Session%20hijacking.md)
 - [Session sniffing](Biztonsági%20kérdések/Session%20sniffing.md)
+- [OWASP](Biztonsági%20kérdések/OWASP.md)
 ## System design
 
 - [TDD (Test Driven Development)](System%20design/TDD%20(Test%20Driven%20Development).md)
@@ -38,8 +39,8 @@
 - [JSON APIs](API/JSON%20APIs.md)
 - [SOAP](API/SOAP.md)
 - [GraphQL](API/GraphQL.md)
+### API biztonsági kérdések
 
-API biztonsági kérdések:
 - [CORS](API/CORS.md)
 - [CSP](API/CSP.md)
 - [JWT (JSON Web Token)](API/JWT%20(JSON%20Web%20Token).md)
