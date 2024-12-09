@@ -38,6 +38,12 @@
 - [JSON APIs](API/JSON%20APIs.md)
 - [SOAP](API/SOAP.md)
 - [GraphQL](API/GraphQL.md)
+
+API biztonsági kérdések:
+- [CORS](API/CORS.md)
+- [CSP](API/CSP.md)
+- [JWT (JSON Web Token)](API/JWT%20(JSON%20Web%20Token).md)
+- [Throttling és Rate Limiting](API/Throttling%20és%20Rate%20Limiting.md)
 ## PHP verziók
 
 - 1.0.0 :)
