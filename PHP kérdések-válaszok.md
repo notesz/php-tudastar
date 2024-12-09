@@ -32,6 +32,12 @@
 - [Hogyan kezelnéd a PHP-ban a hibakeresést](Hibakezelés/Hogyan%20kezelnéd%20a%20PHP-ban%20a%20hibakeresést.md)
 - [Hogyan állítanád be az Xdebug-ot a PHPStorm IDE-ben](Hibakezelés/Hogyan%20állítanád%20be%20az%20Xdebug-ot%20a%20PHPStorm%20IDE-ben.md)
 - [Hogyan állítanád be az Xdebug-ot a Visual Studio Code IDE-ben](Hibakezelés/Hogyan%20állítanád%20be%20az%20Xdebug-ot%20a%20Visual%20Studio%20Code%20IDE-ben.md)
+## API
+
+- [REST API](API/REST%20API.md)
+- [JSON APIs](API/JSON%20APIs.md)
+- [SOAP](API/SOAP.md)
+- [GraphQL](API/GraphQL.md)
 ## PHP verziók
 
 - 1.0.0 :)
