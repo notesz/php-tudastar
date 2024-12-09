@@ -20,7 +20,7 @@ Az SQL injection támadások lehetővé tehetik a támadók számára, hogy:
 4. Az alkalmazás és az adatbázis-felhasználó jogosultságainak minimalizálása
 
 Bővebben a prepared statement-ről:
-[[Mi a prepared statement és miért fontos használni?]]
+[[../PHP haladó/Mi a prepared statement és miért fontos használni]]
 
 Az SQL injection elleni védekezés kulcsfontosságú a webalkalmazások biztonságának megőrzésében. A fejlesztőknek mindig ügyelniük kell arra, hogy megfelelően kezeljék a felhasználói bevitelt, és alkalmazzák a bevált biztonsági gyakorlatokat az adatbázis-lekérdezések során.
 ## Az SQL injection egy gyakorlati példája

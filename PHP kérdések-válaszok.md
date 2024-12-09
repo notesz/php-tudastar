@@ -8,10 +8,10 @@
 - Milyen módszereket használnál egy PHP alkalmazás teljesítményének javítására?
 ## Haladó PHP koncepciók
 
-- [Mik azok a PHP generátorok és hogyan javítják a memóriahatékonyságot?](PHP%20haladó/Mik%20azok%20a%20PHP%20generátorok%20és%20hogyan%20javítják%20a%20memóriahatékonyságot?.md)
+- [Mik azok a PHP generátorok és hogyan javítják a memóriahatékonyságot](PHP%20haladó/Mik%20azok%20a%20PHP%20generátorok%20és%20hogyan%20javítják%20a%20memóriahatékonyságot.md)
 - [Magyarázd el a trait-ek működését és használatát PHP-ban](PHP%20haladó/Magyarázd%20el%20a%20trait-ek%20működését%20és%20használatát%20PHP-ban.md)
-- [Mi a prepared statement és miért fontos használni?](PHP%20haladó/Mi%20a%20prepared%20statement%20és%20miért%20fontos%20használni?.md)
-- [Milyen előnyei vannak a PDO használatának a mysql_ függvényekkel szemben?](PHP%20haladó/Milyen%20előnyei%20vannak%20a%20PDO%20használatának%20a%20mysql_%20függvényekkel%20szemben?.md)
+- [Mi a prepared statement és miért fontos használni](PHP%20haladó/Mi%20a%20prepared%20statement%20és%20miért%20fontos%20használni.md)
+- [Milyen előnyei vannak a PDO használatának a mysql_ függvényekkel szemben](PHP%20haladó/Milyen%20előnyei%20vannak%20a%20PDO%20használatának%20a%20mysql_%20függvényekkel%20szemben.md)
 - Hogyan integrálnál egy külső REST API-t egy meglévő PHP alkalmazásba?
 ## Biztonsági kérdések
 
