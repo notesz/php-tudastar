@@ -2,8 +2,8 @@
 
 ## Általános kérdések
 
-- [Hogyan tartod naprakészen a PHP és webfejlesztési tudásodat](Általános%20kérdések/Hogyan%20tartod%20naprakészen%20a%20PHP%20és%20webfejlesztési%20tudásodat.md)
-- [Milyen PHP keretrendszerekkel van tapasztalatod és melyiket preferálod és miért](Általános%20kérdések/Milyen%20PHP%20keretrendszerekkel%20van%20tapasztalatod%20és%20melyiket%20preferálod%20és%20miért.md)
+- [Hogyan tartod naprakészen a PHP és webfejlesztési tudásodat](./altalanos_kerdesek/Hogyan_tartod_naprakeszen_a_PHP_es_webfejlesztesi_tudasodat.md)
+- [Milyen PHP keretrendszerekkel van tapasztalatod](./altalanos_kerdesek/Milyen_PHP_keretrendszerekkel_van_tapasztalatod.md)
 
 ## Optimalizálás és teljesítmény
 
@@ -12,48 +12,48 @@
 
 ## Haladó PHP koncepciók
 
-- [Mik azok a PHP generátorok és hogyan javítják a memóriahatékonyságot](PHP%20haladó/Mik%20azok%20a%20PHP%20generátorok%20és%20hogyan%20javítják%20a%20memóriahatékonyságot.md)
-- [Magyarázd el a trait-ek működését és használatát PHP-ban](PHP%20haladó/Magyarázd%20el%20a%20trait-ek%20működését%20és%20használatát%20PHP-ban.md)
-- [Mi a prepared statement és miért fontos használni](PHP%20haladó/Mi%20a%20prepared%20statement%20és%20miért%20fontos%20használni.md)
-- [Milyen előnyei vannak a PDO használatának a mysql_ függvényekkel szemben](PHP%20haladó/Milyen%20előnyei%20vannak%20a%20PDO%20használatának%20a%20mysql_%20függvényekkel%20szemben.md)
+- [Mik azok a PHP generátorok és hogyan javítják a memóriahatékonyságot](./PHP_halado/Mik_azok_a_PHP_generatorok_es_hogyan_javitjak_a_memoriahatekonysagot.md)
+- [Magyarázd el a trait-ek működését és használatát PHP-ban](./PHP_halado/Magyarazd_el_a_trait-ek_mukodeset_es_hasznalatat.md)
+- [Mi a prepared statement és miért fontos használni](./PHP_halado/Mi_a_prepared_statement_es_miert_fontos_hasznalni.md)
+- [Milyen előnyei vannak a PDO használatának a mysql_ függvényekkel szemben](./PHP_halado/Milyen_elenyei_vannak_a_PDO_hasznalatanak_a_mysql__fuggvenyekkel_szemben.md)
 - Hogyan integrálnál egy külső REST API-t egy meglévő PHP alkalmazásba?
 
 ## Biztonsági kérdések
 
-- [XSS (Cross-site scripting)](Biztonsági%20kérdések/XSS%20(Cross-site%20scripting).md)
-- [CSRF (Cross-site request forgery)](Biztonsági%20kérdések/CSRF%20(Cross-site%20request%20forgery).md)
-- [IDOR](Biztonsági%20kérdések/IDOR.md)
-- [SQL injection](Biztonsági%20kérdések/SQL%20injection.md)
-- [Session hijacking](Biztonsági%20kérdések/Session%20hijacking.md)
-- [Session sniffing](Biztonsági%20kérdések/Session%20sniffing.md)
-- [OWASP](Biztonsági%20kérdések/OWASP.md)
+- [XSS (Cross-site scripting)](./Biztonsagi_kerdesek/XSS.md)
+- [CSRF (Cross-site request forgery)](./Biztonsagi_kerdesek/CSRF.md)
+- [IDOR](./Biztonsagi_kerdesek/IDOR.md)
+- [SQL injection](./Biztonsagi_kerdesek/SQL_injection.md)
+- [Session hijacking](./Biztonsagi_kerdesek/Session_hijacking.md)
+- [Session sniffing](./Biztonsagi_kerdesek/Session_sniffing.md)
+- [OWASP](./Biztonsagi_kerdesek/OWASP.md)
 
 ## System design
 
-- [TDD (Test Driven Development)](System%20design/TDD%20(Test%20Driven%20Development).md)
-- [CI CD (Continuous Integration, Continuous Deployment)](System%20design/CI%20CD%20(Continuous%20Integration,%20Continuous%20Deployment).md)
-- [Software Design Principles (Szoftvertervezési elvek)](System%20design/Software%20Design%20Principles%20(Szoftvertervezési%20elvek).md)
-- [Design Patterns (Tervezési minták)](System%20design/Design%20Patterns%20(Tervezési%20minták).md)
+- [TDD (Test Driven Development)](./System_design/TDD.md)
+- [CI CD (Continuous Integration, Continuous Deployment)](./System_design/CICD.md)
+- [Software Design Principles (Szoftvertervezési elvek)](./System_design/Software_Design_Principles.md)
+- [Design Patterns (Tervezési minták)](./System_design/Design_Patterns.md)
 
 ## Hibakezelés
 
-- [Hogyan kezelnéd a PHP-ban a hibakeresést](Hibakezelés/Hogyan%20kezelnéd%20a%20PHP-ban%20a%20hibakeresést.md)
-- [Hogyan állítanád be az Xdebug-ot a PHPStorm IDE-ben](Hibakezelés/Hogyan%20állítanád%20be%20az%20Xdebug-ot%20a%20PHPStorm%20IDE-ben.md)
-- [Hogyan állítanád be az Xdebug-ot a Visual Studio Code IDE-ben](Hibakezelés/Hogyan%20állítanád%20be%20az%20Xdebug-ot%20a%20Visual%20Studio%20Code%20IDE-ben.md)
+- [Hogyan kezelnéd a PHP-ban a hibakeresést](./Hibakezeles/Hogyan_kezelned_a_PHP-ban_a_hibakeresest.md)
+- [Hogyan állítanád be az Xdebug-ot a PHPStorm IDE-ben](./Hibakezeles/Hogyan_allitanad_be_az_Xdebug-ot_a_PHPStorm_IDE-ben.md)
+- [Hogyan állítanád be az Xdebug-ot a Visual Studio Code IDE-ben](./Hibakezeles/Hogyan_allitanad_be_az_Xdebug-ot_a_Visual_Studio_Code_IDE-ben.md)
 
 ## API
 
-- [REST API](API/REST%20API.md)
-- [JSON APIs](API/JSON%20APIs.md)
-- [SOAP](API/SOAP.md)
-- [GraphQL](API/GraphQL.md)
+- [REST API](./API/REST_API.md)
+- [JSON APIs](./API/JSON_APIs.md)
+- [SOAP](./API/SOAP.md)
+- [GraphQL](./API/GraphQL.md)
 
 ### API biztonsági kérdések
 
-- [CORS](API/CORS.md)
-- [CSP](API/CSP.md)
-- [JWT (JSON Web Token)](API/JWT%20(JSON%20Web%20Token).md)
-- [Throttling és Rate Limiting](API/Throttling%20és%20Rate%20Limiting.md)
+- [CORS](./API/CORS.md)
+- [CSP](./API/CSP.md)
+- [JWT (JSON Web Token)](./API/JWT.md)
+- [Throttling és Rate Limiting](./API/Throttling_es_Rate_Limiting.md)
 
 ## PHP verziók
 
