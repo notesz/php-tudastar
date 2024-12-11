@@ -22,7 +22,11 @@ Például:
 {
     status : "success",
     data : {
-        "post" : { "id" : 1, "title" : "A blog post", "body" : "Some useful content" }
+        "post" : { 
+            "id" : 1, 
+            "title" : "A blog post", 
+            "body" : "Some useful content" 
+        }
      }
 }
 ```
@@ -45,7 +49,9 @@ Például:
 ```json
 {
     "status" : "fail",
-    "data" : { "title" : "A title is required" }
+    "data" : {
+        "title" : "A title is required" 
+    }
 }
 ```
 
