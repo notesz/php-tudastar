@@ -1,3 +1,5 @@
+# Mi a CI/CD
+
 A **CI/CD** (Continuous Integration/Continuous Delivery vagy Continuous Deployment) egy szoftverfejlesztési módszertan, amely a folyamatos integrációt és a folyamatos szállítást/telepítést kombinálja. Ez a megközelítés automatizálja és optimalizálja a fejlesztési, tesztelési és telepítési folyamatokat, hogy gyorsabbá és megbízhatóbbá tegye a szoftverfejlesztést.
 
 ## **CI (Continuous Integration) – Folyamatos integráció**

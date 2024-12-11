@@ -1,3 +1,5 @@
+# SOLID alapelvek gyakorlati alkalmazása
+
 A SOLID elvek gyakorlati alkalmazására számos példa hozható fel:
 
 ## Single Responsibility Principle (SRP)

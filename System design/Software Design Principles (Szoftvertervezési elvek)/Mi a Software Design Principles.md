@@ -1,3 +1,5 @@
+# Mi a Software Design Principles
+
 A szoftverfejlesztési alapelvek olyan iránymutatások, amelyek segítik a fejlesztőket jól strukturált, karbantartható és hatékony szoftverrendszerek létrehozásában. Íme néhány kulcsfontosságú alapelv:
 
 ## SOLID alapelvek

@@ -1,6 +1,8 @@
+# Singleton
+
 A **Singleton** design pattern egy **Creational Pattern** (létrehozási minta), amely biztosítja, hogy egy osztályból csak egyetlen példány létezhessen a program futása során, és globális hozzáférést biztosít ehhez az egy példányhoz. Ez a minta gyakran használatos olyan helyzetekben, amikor egy központi vezérlő vagy erőforráskezelő objektumra van szükség.
 
-## **Hogyan működik a Singleton?**
+## Működése
 
 1. **Privát konstruktor**:
 
@@ -14,7 +16,7 @@ A **Singleton** design pattern egy **Creational Pattern** (létrehozási minta),
 
    - Egy nyilvános statikus metódus biztosítja a hozzáférést az osztály példányához. Ha a példány még nem létezik, akkor létrehozza azt, különben visszaadja a már meglévőt.
 
-## **Példa PHP-ban**
+### Példa PHP-ban
 
 Íme egy egyszerű Singleton minta implementáció PHP-ban:
 
@@ -59,9 +61,7 @@ $singleton2->doSomething();
 var_dump($singleton1 === $singleton2); // true
 ```
 
----
-
-## **Fontos jellemzők**
+## Fontos jellemzők
 
 1. **Egyetlen példány**:
 
@@ -79,20 +79,20 @@ var_dump($singleton1 === $singleton2); // true
 
    - Az osztály példánya statikusan van tárolva, így minden hívás ugyanazt az objektumot használja.
 
-## **Mikor használd?**
+## Mikor használd?
 
 A Singleton pattern akkor hasznos, ha:
 
 - Egy központi vezérlő objektumra van szükség (pl. konfigurációkezelő, naplózó).
 - Egy erőforrás megosztott használatára van szükség (pl. adatbáziskapcsolat).
 
-## **Előnyök**
+## Előnyök
 
 - Biztosítja, hogy csak egyetlen példány létezzen.
 - Könnyen elérhető globális hozzáférési pontot biztosít.
 - Csökkenti a memóriahasználatot megosztott erőforrások esetén.
 
-## **Hátrányok**
+## Hátrányok
 
 - A globális állapot bevezetése miatt nehezebb lehet tesztelni (pl. egységtesztek).
 - Ha túlzottan használják, csökkentheti a kód modularitását és bővíthetőségét.

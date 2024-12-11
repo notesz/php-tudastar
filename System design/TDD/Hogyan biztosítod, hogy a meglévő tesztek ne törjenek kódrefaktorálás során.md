@@ -1,3 +1,5 @@
+# Hogyan biztosítod, hogy a meglévő tesztek ne törjenek kódrefaktorálás során
+
 A kódrefaktorálás során a meglévő tesztek épségének megőrzéséhez több fontos lépést és technikát érdemes alkalmazni:
 
 ## Alapos tesztkészlet kialakítása

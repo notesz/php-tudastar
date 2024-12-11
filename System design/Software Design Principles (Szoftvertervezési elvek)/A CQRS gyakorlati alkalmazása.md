@@ -1,3 +1,5 @@
+# A CQRS gyakorlati alkalmazása
+
 A CQRS (Command Query Responsibility Segregation) gyakorlati megvalósítása a következőképpen működik:
 
 ## Alapvető struktúra

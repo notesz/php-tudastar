@@ -1,3 +1,5 @@
+# Milyen esetekben nem ajánlott a TDD
+
 A Tesztvezérelt Fejlesztés (TDD) általában hasznos módszer, de vannak esetek, amikor nem ajánlott vagy kevésbé hatékony. Íme néhány helyzet, amikor érdemes megfontolni a TDD mellőzését:
 
 ## Bizonytalan követelmények esetén

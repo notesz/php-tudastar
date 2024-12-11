@@ -1,4 +1,6 @@
-A Builder (Építő) pattern egy létrehozási tervezési minta, amely lehetővé teszi komplex objektumok lépésenkénti felépítését. Ez a minta különösen hasznos olyan objektumok létrehozásánál, amelyeknek sok opcionális vagy változó része van.
+# Builder
+
+A Builder pattern egy létrehozási tervezési minta, amely lehetővé teszi komplex objektumok lépésenkénti felépítését. Ez a minta különösen hasznos olyan objektumok létrehozásánál, amelyeknek sok opcionális vagy változó része van.
 
 ## Hogyan működik?
 

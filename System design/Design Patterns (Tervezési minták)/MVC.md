@@ -1,3 +1,5 @@
+# MVC
+
 Az MVC (Model-View-Controller) egy architekturális tervezési minta, amely szétválasztja az alkalmazás logikáját három fő komponensre. Ez a minta széles körben elterjedt webes és asztali alkalmazások fejlesztésében. Íme, hogyan működik:
 
 1. **Model (Modell)**:
@@ -18,7 +20,7 @@ Az MVC (Model-View-Controller) egy architekturális tervezési minta, amely szé
    - Frissíti a Model-t a felhasználói bemenetek alapján.
    - Kiválasztja a megfelelő View-t a megjelenítéshez.
 
-**Működési folyamat**:
+## Működési folyamat
 
 1. A felhasználó interakcióba lép a View-val.
 2. A View továbbítja az eseményt a Controller-nek.
@@ -26,14 +28,14 @@ Az MVC (Model-View-Controller) egy architekturális tervezési minta, amely szé
 4. A Model értesíti a View-t a változásról.
 5. A View lekérdezi az új adatokat a Model-től és frissíti a megjelenítést.
 
-**Előnyök**:
+## Előnyök
 
 - Moduláris felépítés
 - Könnyebb karbantarthatóság
 - Párhuzamos fejlesztés lehetősége
 - Jobb újrafelhasználhatóság
 
-**Hátrányok**:
+## Hátrányok
 
 - Komplexitás növekedése kisebb alkalmazásoknál
 - Túlzott szétválasztás néha nehezítheti a fejlesztést

@@ -1,3 +1,5 @@
+# Hogyan használnád a PHPUnit-tot egy PHP projektben
+
 A PHPUnit használata egy PHP projektben viszonylag egyszerű folyamat. Íme egy lépésenkénti útmutató egy egyszerű egységteszt példával:
 
 1. Először telepítsd a PHPUnit-ot a projektedben Composer segítségével:

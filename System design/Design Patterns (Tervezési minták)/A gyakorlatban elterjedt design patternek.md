@@ -1,3 +1,5 @@
+# A gyakorlatban elterjedt design patternek
+
 ## Singleton Pattern
 
 Ez a minta biztosítja, hogy egy osztályból csak egyetlen példány létezzen, és globális hozzáférést biztosít ehhez a példányhoz. Gyakran használják olyan esetekben, amikor egy központi vezérlő objektumra van szükség, például konfigurációkezeléshez vagy erőforrás-megosztáshoz.

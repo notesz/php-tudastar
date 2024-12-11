@@ -1,3 +1,5 @@
+# Mi az adatforrások (data providers) szerepe a PHPUnit-ben
+
 Az adatforrások (data providers) a PHPUnit egyik hasznos funkciója, amely lehetővé teszi, hogy ugyanazt a tesztet többféle bemeneti adattal futtassuk le. Ez különösen hasznos, amikor egy metódus viselkedését különböző bemeneti értékekkel szeretnénk tesztelni.
 
 ## Az adatforrások előnyei
@@ -54,5 +56,3 @@ Ebben a példában:
 2. A `@dataProvider` annotáció köti össze a tesztmetódust az adatforrással.
 3. Az adatforrás minden sora egy külön tesztesetnek felel meg.
 4. A PHPUnit automatikusan végigmegy az összes adatsoron, és mindegyikkel lefuttatja a tesztet.
-
-Ez a megközelítés lehetővé teszi, hogy egyetlen tesztmetódussal több különböző esetet is lefedjünk, ami jelentősen javítja a tesztek hatékonyságát és karbantarthatóságát.

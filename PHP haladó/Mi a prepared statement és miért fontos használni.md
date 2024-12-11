@@ -1,3 +1,5 @@
+# Mi a prepared statement és miért fontos használni
+
 A prepared statement egy előre elkészített SQL lekérdezés sablon, amely helyőrzőket tartalmaz a tényleges paraméterértékek helyett. Ez a technika több szempontból is fontos és előnyös:
 
 ## Működése

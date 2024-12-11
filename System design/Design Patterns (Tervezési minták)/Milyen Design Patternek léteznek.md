@@ -1,3 +1,5 @@
+# Milyen Design Patternek léteznek
+
 A design pattern (tervezési minta) egy általános, újrafelhasználható megoldás gyakran előforduló problémákra a szoftverfejlesztésben. A design pattern-eket három fő kategóriába sorolják a céljuk és a megoldandó problémák alapján:
 
 ## 1. Creational Patterns (Létrehozási minták)

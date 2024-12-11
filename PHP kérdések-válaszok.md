@@ -1,3 +1,5 @@
+# PHP kérdések-válaszok
+
 ## Általános kérdések
 
 - [Hogyan tartod naprakészen a PHP és webfejlesztési tudásodat](Általános%20kérdések/Hogyan%20tartod%20naprakészen%20a%20PHP%20és%20webfejlesztési%20tudásodat.md)

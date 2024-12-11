@@ -1,3 +1,5 @@
+# Software Design Principles (Szoftvertervezési elvek)
+
 ## Alapvető fogalmak
 
 - [Mi a Software Design Principles](Software%20Design%20Principles%20(Szoftvertervezési%20elvek)/Mi%20a%20Software%20Design%20Principles.md)

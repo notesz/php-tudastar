@@ -1,3 +1,5 @@
+# Hogyan alkalmazható a BDD a komplex számítások tesztelésében
+
 A Behavior-Driven Development (BDD) hatékonyan alkalmazható komplex számítások tesztelésében is. Íme néhány stratégia, amellyel a BDD megközelítést használhatjuk erre a célra:
 
 ## Dekompozíció

@@ -1,3 +1,5 @@
+# Hogyan kezelnéd a PHP-ban a hibakeresést
+
 A PHP-ban történő hibakeresés (debugging) több módszerrel és eszközzel is hatékonyan végezhető. Íme néhány kulcsfontosságú technika és ajánlás:
 
 ## Alapvető technikák

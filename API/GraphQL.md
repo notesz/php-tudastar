@@ -1,4 +1,7 @@
+GraphQL
+
 A GraphQL egy adatlekérdezési nyelv API-khoz, amelyet a Facebook fejlesztett ki. A GraphQL lehetővé teszi a kliensek számára, hogy pontosan meghatározzák, milyen adatokra van szükségük ("deklaratív adatlekérdezés").
+
 ## Főbb jellemzők
 
 - **XML-alapú**:

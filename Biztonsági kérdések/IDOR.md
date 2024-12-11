@@ -1,9 +1,13 @@
+# IDOR
+
 Az IDOR (Insecure Direct Object Reference) egy olyan hozzáférés-vezérlési sebezhetőség, amely akkor fordul elő, amikor egy alkalmazás közvetlenül használja a felhasználó által megadott adatokat objektumok eléréséhez anélkül, hogy megfelelő jogosultság-ellenőrzést végezne.
+
 ## Hogyan működik?
 
 - Az alkalmazás közvetlen hivatkozást használ objektumokra (pl. adatbázis-rekordok, fájlok) URL-ekben vagy paraméterekben.
 - A felhasználó módosíthatja ezeket az azonosítókat más objektumok eléréséhez.
 - Az alkalmazás nem ellenőrzi megfelelően, hogy a felhasználónak van-e jogosultsága az adott objektum elérésére.
+
 ## Példák IDOR sebezhetőségre
 
 1. URL-ben lévő azonosító módosítása:

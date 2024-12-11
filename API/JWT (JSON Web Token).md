@@ -1,7 +1,11 @@
+# JWT
+
 A JWT (JSON Web Token) egy nyílt szabvány, amely biztonságos információmegosztást tesz lehetővé általában egy kliens és egy szerver között.
+
 ## A JWT működése
 
 A JWT (JSON Web Token) alapú hitelesítés a következőképpen működik:
+
 ### Bejelentkezés folyamata
 
 1. A felhasználó megadja a hitelesítő adatait (pl. felhasználónév és jelszó).
@@ -9,17 +13,20 @@ A JWT (JSON Web Token) alapú hitelesítés a következőképpen működik:
 3. Ha érvényesek, a szerver létrehoz egy JWT-t, amely tartalmazza a felhasználó azonosítóját és esetleg más releváns információkat.
 4. A szerver digitálisan aláírja a tokent egy titkos kulccsal.
 5. A szerver visszaküldi a JWT-t a kliensnek.
+
 ### Token használata
 
 1. A kliens eltárolja a JWT-t (általában localStorage-ban vagy cookie-ban).
 2. Minden további kérésnél a kliens elküldi a JWT-t a szervernek (általában az Authorization fejlécben).
 3. A szerver ellenőrzi a token aláírását és érvényességét.
 4. Ha érvényes, a szerver feldolgozza a kérést és visszaküldi a választ.
+
 ### Előnyök
 
 - Állapotmentesség: A szerver nem tárol munkamenet-információkat.
 - Skálázhatóság: Könnyen használható elosztott rendszerekben.
 - Hatékonyság: Csökkenti az adatbázis-lekérdezések számát.
+
 ### Biztonsági megfontolások
 
 - A JWT-ket biztonságosan kell tárolni a kliens oldalon.

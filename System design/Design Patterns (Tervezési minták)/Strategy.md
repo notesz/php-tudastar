@@ -1,6 +1,8 @@
-A Strategy (Stratégia) pattern egy viselkedési tervezési minta, amely lehetővé teszi algoritmusok dinamikus cseréjét futásidőben. Ez a minta különösen hasznos, amikor különböző variációi vannak egy algoritmusnak, és ezeket rugalmasan szeretnénk cserélni anélkül, hogy módosítanánk a kliens kódot.
+# Strategy
 
-## Hogyan működik?
+A Strategy pattern egy viselkedési tervezési minta, amely lehetővé teszi algoritmusok dinamikus cseréjét futásidőben. Ez a minta különösen hasznos, amikor különböző variációi vannak egy algoritmusnak, és ezeket rugalmasan szeretnénk cserélni anélkül, hogy módosítanánk a kliens kódot.
+
+## Működése
 
 1. **Strategy (Stratégia) interfész**: Definiálja az algoritmus közös interfészét.
 
@@ -8,7 +10,7 @@ A Strategy (Stratégia) pattern egy viselkedési tervezési minta, amely lehető
 
 3. **Context (Kontextus)**: Tartalmaz egy referenciát egy Strategy objektumra, és használja azt a műveletek végrehajtására.
 
-## Példa PHP-ban:
+### Példa PHP-ban:
 
 ```php
 // Strategy interfész

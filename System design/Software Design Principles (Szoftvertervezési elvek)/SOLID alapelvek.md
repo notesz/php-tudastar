@@ -1,3 +1,5 @@
+# SOLID alapelvek
+
 A SOLID elvek alkalmazása egy új projektben segít létrehozni egy jól strukturált, rugalmas és karbantartható kódot. Íme néhány gyakorlati tanács az egyes elvek alkalmazására: #solid 
 
 ## Single Responsibility Principle (SRP)

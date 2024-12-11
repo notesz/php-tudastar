@@ -1,3 +1,5 @@
+# Hogyan állítanád be az Xdebug-ot a Visual Studio Code IDE-ben
+
 Az Xdebug beállítása Visual Studio Code IDE-ben a következő lépéseket foglalja magában:
 
 1. Telepítsd az Xdebug PHP kiterjesztést:
@@ -34,5 +36,3 @@ Az Xdebug beállítása Visual Studio Code IDE-ben a következő lépéseket fog
 7. Állíts be töréspontokat a kódban
 
 8. Indítsd el a debuggolást a "Listen for Xdebug" opcióval
-
-Ezekkel a lépésekkel beállíthatod az Xdebug-ot a Visual Studio Code IDE-ben, ami lehetővé teszi a hatékony PHP debuggolást.

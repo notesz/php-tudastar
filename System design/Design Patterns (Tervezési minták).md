@@ -1,3 +1,5 @@
+# Design Patterns (Tervezési minták)
+
 ## Alapvető Design Patterns fogalmak
 
 - [Mi az a Design Patterns](Design%20Patterns%20(Tervezési%20minták)/Mi%20az%20a%20Design%20Patterns.md)

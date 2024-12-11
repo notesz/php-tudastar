@@ -1,4 +1,7 @@
+# REST API
+
 A REST API (Representational State Transfer Application Programming Interface) egy olyan interfész, amely lehetővé teszi különböző webes alkalmazások és szolgáltatások közötti kommunikációt.
+
 ## REST API működése
 
 A REST API a HTTP protokollt használja az adatátvitelre, és **általában JSON formátumban kommunikál**. A működése a következő lépésekből áll:
@@ -7,12 +10,13 @@ A REST API a HTTP protokollt használja az adatátvitelre, és **általában JSO
 2. A szerver hitelesíti a klienst és ellenőrzi a jogosultságokat.
 3. A szerver feldolgozza a kérést.
 4. A szerver választ küld a kliensnek, amely tartalmazza a kért információkat vagy a művelet eredményét.
-A REST API (Representational State Transfer Application Programming Interface) egy olyan programozási interfész, amely lehetővé teszi különböző webes alkalmazások és szolgáltatások közötti kommunikációt. A REST API működése a következő lépésekből áll:
+
 ## Főbb jellemzők
 
 ### Erőforrás-orientált
 
 A REST API-k erőforrások köré szerveződnek. Az erőforrások lehetnek adatok, objektumok vagy szolgáltatások, amelyeket egyedi azonosítókkal (URI-kkal) lehet elérni.
+
 ### HTTP metódusok
 
 A REST API a standard HTTP metódusokat használja az erőforrásokon végzett műveletek végrehajtásához:
@@ -22,9 +26,11 @@ A REST API a standard HTTP metódusokat használja az erőforrásokon végzett m
 - PUT: meglévő erőforrás frissítése vagy létrehozása
 - PATCH: erőforrás részleges frissítése
 - DELETE: erőforrás törlése
+
 ### Egységes interfész
 
 A REST API-k egységes interfészt használnak, amely segít az ügyfél és a szolgáltatás implementálásának különválasztásában.
+
 ## Példa működésre
 
 Képzeljünk el egy egyszerű blog REST API-t:
@@ -118,6 +124,7 @@ echo "HTTP válaszkód: " . $http_kod;
 ### OAuth 2.0
 
 Ez egy összetettebb protokoll, amely lehetővé teszi a felhasználók számára, hogy hozzáférést adjanak az adataikhoz anélkül, hogy megosztanák a jelszavukat. Különösen hasznos, amikor külső szolgáltatásokhoz (pl. Google, Facebook) kell hozzáférni.
+
 ## Biztonsági megfontolások
 
 - Mindig használjon HTTPS-t a kommunikáció titkosításához.

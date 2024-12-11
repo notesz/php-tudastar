@@ -1,3 +1,5 @@
+# Milyen eszközök vannak a CI CD rendszerekhez
+
 A CI/CD (Continuous Integration/Continuous Delivery) rendszerekhez számos eszköz áll rendelkezésre.
 
 Íme néhány népszerű és széles körben használt CI/CD eszköz:

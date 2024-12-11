@@ -1,3 +1,5 @@
+# Miért fontos a code coverage mérése TDD esetén
+
 A kód lefedettségének (code coverage) mérése fontos szerepet játszik a Tesztvezérelt Fejlesztés (TDD) folyamatában, több okból is:
 
 ## Minőségbiztosítás

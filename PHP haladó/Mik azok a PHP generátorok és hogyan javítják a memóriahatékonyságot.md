@@ -1,10 +1,14 @@
+# Mik azok a PHP generátorok és hogyan javítják a memóriahatékonyságot
+
 A PHP generátorok olyan speciális függvények, amelyek lehetővé teszik nagy adathalmazok hatékony kezelését és a memóriahasználat optimalizálását. Íme a főbb jellemzőik és előnyeik:
+
 ## Alapvető működés
 
 1. A generátor függvény a `yield` kulcsszót használja értékek visszaadására.
 2. Amikor a függvényt meghívjuk, azonnal visszatér egy `Generator` objektummal.
 3. A generátor függvény végrehajtása felfüggesztődik minden `yield` utasításnál.
 4. A végrehajtás ott folytatódik, ahol legutóbb felfüggesztődött, amikor a következő értéket kérjük.
+
 ## Részletes működési folyamat
 
 1. **Függvény definiálása:**

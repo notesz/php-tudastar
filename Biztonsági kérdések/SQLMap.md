@@ -1,7 +1,11 @@
+# SQLMap
+
 A SQLMap egy hatékony, nyílt forráskódú eszköz az SQL-injekciós sebezhetőségek felderítésére és kihasználására.
-[sqlmap.org](https://sqlmap.org)
+
+URL: [sqlmap.org](https://sqlmap.org)
 
 Az SQLMap működése az SQL-injekció felismerésében:
+
 ## Automatikus sebezhetőség-felismerés
 
 A SQLMap képes automatikusan felismerni a potenciálisan sebezhető célpontokat. Ez azt jelenti, hogy még ha nem is vagyunk biztosak abban, mely paraméterek sebezhetőek, a SQLMap intelligensen átvizsgálja a célpontot és azonosítja a lehetséges injekciós pontokat[1].

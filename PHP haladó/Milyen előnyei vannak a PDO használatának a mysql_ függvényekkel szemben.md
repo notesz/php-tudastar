@@ -1,3 +1,5 @@
+# Milyen előnyei vannak a PDO használatának a mysql_ függvényekkel szemben
+
 A **PDO (PHP Data Objects)** számos előnnyel rendelkezik a régebbi `mysql_` függvényekkel szemben PHP-ban:
 
 ## Biztonság

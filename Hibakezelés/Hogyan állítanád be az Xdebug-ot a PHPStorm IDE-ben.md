@@ -1,3 +1,5 @@
+# Hogyan állítanád be az Xdebug-ot a PHPStorm IDE-ben
+
 Az Xdebug beállítása PHPStorm IDE-hez a következő lépéseket foglalja magában:
 
 1. Xdebug telepítése:
@@ -8,7 +10,6 @@ Az Xdebug beállítása PHPStorm IDE-hez a következő lépéseket foglalja mag�
 2. PHP konfigurálása az Xdebug használatához:
 
    - Keresd meg a php.ini fájlt: `php --ini`
-
    - Szerkeszd a php.ini fájlt, és add hozzá a következő sorokat:
 
 ```ini

@@ -1,3 +1,5 @@
+# Hogyan írnál teszteket egy egyszerű API végponthoz TDD megközelítéssel
+
 A TDD (Test-Driven Development) megközelítéssel egy egyszerű API végpont tesztelése során a következő lépéseket követnénk:
 
 ## 1. A teszt megtervezése
@@ -100,5 +102,3 @@ $app->get('/api/users/{id}', function (Request $request, Response $response, arr
 ```
 
 Ez a TDD ciklus folytatódik, ahogy új funkciókat adunk hozzá vagy módosítjuk a meglévőket. Minden változtatás előtt megírjuk a tesztet, majd implementáljuk a funkciót, és végül refaktoráljuk a kódot, ha szükséges.
-
-Sources

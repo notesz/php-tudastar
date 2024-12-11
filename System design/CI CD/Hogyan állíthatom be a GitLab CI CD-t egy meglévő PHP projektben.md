@@ -1,3 +1,5 @@
+# Hogyan állíthatom be a GitLab CI CD-t egy meglévő PHP projektben
+
 A GitLab CI/CD beállítása egy meglévő PHP projektben a következő lépéseket foglalja magában:
 
 1. Hozz létre egy `.gitlab-ci.yml` fájlt a projekt gyökérkönyvtárában. Ez a fájl fogja tartalmazni a CI/CD pipeline konfigurációját.
@@ -38,7 +40,7 @@ A GitLab CI/CD beállítása egy meglévő PHP projektben a következő lépése
 
 Ez a konfiguráció lehetővé teszi a kód automatikus építését, tesztelését és telepítését minden push után, biztosítva a folyamatos integrációt és szállítást a PHP projektedben.
 
-# Hogyan hozhatom létre a .gitlab-ci.yml fájlt
+## Hogyan hozhatom létre a .gitlab-ci.yml fájlt
 
 A .gitlab-ci.yml fájl létrehozásához a következő lépéseket követheted:
 
@@ -80,7 +82,7 @@ deploy_job:
 
 Alternatív megoldásként használhatod a GitLab beépített CI/CD Pipeline Editort is, amely segít a fájl szerkesztésében, ellenőrzi a szintaxist, és vizualizálja a pipeline struktúráját.
 
-# Hogyan konfigurálhatom a környezeti változókat a .gitlab-ci.yml fájlban
+## Hogyan konfigurálhatom a környezeti változókat a .gitlab-ci.yml fájlban
 
 A környezeti változók konfigurálása a .gitlab-ci.yml fájlban a következőképpen történhet:
 
@@ -117,7 +119,7 @@ deploy_job:
 
 Ezekkel a módszerekkel hatékonyan konfigurálhatod és használhatod a környezeti változókat a GitLab CI/CD folyamatodban.
 
-# Milyen feladatokat kell definiálnom a CI/CD folyamatban
+## Milyen feladatokat kell definiálnom a CI/CD folyamatban
 
 A CI/CD folyamatban több kulcsfontosságú feladatot érdemes definiálni egy PHP projekt esetében. Íme egy átfogó lista a tipikus feladatokról:
 
@@ -179,7 +181,7 @@ A CI/CD folyamatban több kulcsfontosságú feladatot érdemes definiálni egy P
 
 Ezeket a feladatokat a `.gitlab-ci.yml` fájlban lehet definiálni, megfelelő szakaszokba (stages) szervezve. A pontos konfiguráció a projekt specifikus igényeitől és a használt technológiáktól függ.
 
-# Hogyan integrálhatom a Composer-t a Gitlab CI/CD-be
+## Hogyan integrálhatom a Composer-t a Gitlab CI/CD-be
 
 A Composer integrálása a GitLab CI/CD folyamatba viszonylag egyszerű. Íme a lépések és példák:
 

@@ -1,4 +1,8 @@
-A mockok és stubok használata kulcsfontosságú a TDD (Test-Driven Development) folyamatban, különösen amikor külső függőségekkel vagy komplex objektumokkal dolgozunk. Íme, hogyan használhatjuk ezeket hatékonyan:
+# Mockok és stubok használata egy TDD folyamatban
+
+A mockok és stubok használata kulcsfontosságú a TDD (Test-Driven Development) folyamatban, különösen amikor külső függőségekkel vagy komplex objektumokkal dolgozunk.
+
+Íme, hogyan használhatjuk ezeket hatékonyan:
 
 ## Mockok használata
 
@@ -88,5 +92,3 @@ Itt a stub egy kivételt dob, lehetővé téve a hibakezelés tesztelését.
 3. **Refaktorálj:** Tisztítsd meg a kódot, miközben biztosítod, hogy a tesztek továbbra is átmennek.
 
 4. **Ismételd:** Folytasd a folyamatot további tesztek hozzáadásával, szükség szerint bővítve vagy módosítva a mockokat és stubokat.
-
-A mockok és stubok használata lehetővé teszi, hogy a TDD folyamat során izoláltan teszteljük az egyes komponenseket, biztosítva, hogy a kód megfelel az elvárt viselkedésnek, miközben minimalizáljuk a külső függőségek hatását a tesztekre.

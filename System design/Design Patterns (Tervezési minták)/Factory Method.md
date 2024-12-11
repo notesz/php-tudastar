@@ -1,3 +1,5 @@
+# Factory Method
+
 A Factory Method pattern egy létrehozási tervezési minta, amely lehetővé teszi objektumok létrehozását anélkül, hogy előre meghatároznánk a pontos osztályt. Ez a minta különösen hasznos, amikor a kódot el szeretnénk választani a konkrét implementációtól.
 
 ## Hogyan működik?

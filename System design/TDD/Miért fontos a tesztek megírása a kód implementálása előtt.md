@@ -1,4 +1,8 @@
-A tesztek megírása a kód implementálása előtt számos előnnyel jár a szoftverfejlesztési folyamatban. Íme a legfontosabb okok, amiért ez a gyakorlat kiemelkedően hasznos:
+# Miért fontos a tesztek megírása a kód implementálása előtt
+
+A tesztek megírása a kód implementálása előtt számos előnnyel jár a szoftverfejlesztési folyamatban. Összességében a tesztek előzetes megírása javítja a kód minőségét, csökkenti a hibák számát, és hosszú távon időt és erőforrásokat takarít meg a fejlesztési folyamatban.
+
+Íme a legfontosabb okok, amiért ez a gyakorlat kiemelkedően hasznos:
 
 ## Világos követelmények
 
@@ -27,7 +31,3 @@ A tesztek egyfajta "élő dokumentációként" szolgálnak, bemutatva a kód elv
 ## Magabiztosság
 
 A kiterjedt tesztkészlet növeli a fejlesztők és a stakeholderek bizalmát a kód minőségében és megbízhatóságában.
-
-Összességében a tesztek előzetes megírása javítja a kód minőségét, csökkenti a hibák számát, és hosszú távon időt és erőforrásokat takarít meg a fejlesztési folyamatban.
-
-Sources

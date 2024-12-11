@@ -1,3 +1,5 @@
+# Hogyan kezelnéd a függőségeket (dependencies) egy osztály tesztelése során
+
 A függőségek kezelése kulcsfontosságú az egységtesztek írása során, különösen amikor komplex osztályokat tesztelünk. Íme néhány hatékony módszer a függőségek kezelésére PHP-ban:
 
 ## 1. Dependency Injection (Függőség Befecskendezés)

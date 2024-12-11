@@ -1,3 +1,5 @@
+# Domain-Driven Design (DDD)
+
 A Domain-Driven Design (DDD), magyarul tartományvezérelt vagy tartományalapú tervezés, egy fontos szoftverfejlesztési megközelítés, amely az üzleti domain (tartomány) köré építi a szoftverrendszereket. A DDD lényege, hogy a szoftverfejlesztés középpontjában az üzleti domain álljon, vagyis az a terület vagy problémakör, amelyet a szoftvernek meg kell oldania vagy támogatnia kell.
 
 ## A DDD fő elemei és céljai

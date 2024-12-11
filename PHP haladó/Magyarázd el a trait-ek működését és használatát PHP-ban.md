@@ -1,3 +1,5 @@
+# Magyarázd el a trait-ek működését és használatát PHP-ban
+
 A trait-ek a PHP 5.4-es verziójától kezdve elérhetők, és egy hatékony eszközt biztosítanak a kód újrafelhasználására. Lényegében a trait-ek olyan kódrészletek, amelyeket több osztályban is fel lehet használni anélkül, hogy többszörös öröklődésre lenne szükség.
 
 ## Trait-ek alapjai

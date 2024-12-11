@@ -1,6 +1,8 @@
-Az Observer (Megfigyelő) pattern egy viselkedési tervezési minta, amely egy olyan függőségi viszonyt definiál az objektumok között, ahol ha egy objektum (a Subject vagy Alany) állapota megváltozik, az összes függő objektum (Observer vagy Megfigyelő) automatikusan értesül és frissül. Ez a minta különösen hasznos eseményvezérelt rendszerekben és felhasználói felületek frissítésénél.
+# Observer
 
-## Hogyan működik?
+Az Observer pattern egy viselkedési tervezési minta, amely egy olyan függőségi viszonyt definiál az objektumok között, ahol ha egy objektum (a Subject vagy Alany) állapota megváltozik, az összes függő objektum (Observer vagy Megfigyelő) automatikusan értesül és frissül. Ez a minta különösen hasznos eseményvezérelt rendszerekben és felhasználói felületek frissítésénél.
+
+## Működése
 
 1. **Subject (Alany)**: Ez az objektum tartalmazza az állapotot és kezeli a Megfigyelők listáját.
 
@@ -11,7 +13,7 @@ Az Observer (Megfigyelő) pattern egy viselkedési tervezési minta, amely egy o
 
 3. **Concrete Observer (Konkrét Megfigyelő)**: Implementálja az Observer interfészt és frissíti magát, amikor értesítést kap.
 
-## Példa PHP-ban:
+### Példa PHP-ban:
 
 ```php
 interface Subject {
@@ -85,13 +87,13 @@ $subject->setState(2);
 $subject->setState(3);
 ```
 
-## Előnyök:
+## Előnyök
 
 1. **Lazán csatolt objektumok**: A Subject nem ismeri a konkrét Observer osztályokat, csak az interfészt.
 2. **Rugalmasság**: Könnyen hozzáadhatók és eltávolíthatók Observerek futásidőben.
 3. **Broadcast kommunikáció**: Egy Subject egyszerre több Observert is értesíthet.
 
-## Hátrányok:
+## Hátrányok
 
 1. **Memóriahasználat**: Nagy számú Observer esetén jelentős lehet a memóriahasználat.
 2. **Teljesítmény**: Sok Observer esetén az értesítések lelassíthatják a rendszert.

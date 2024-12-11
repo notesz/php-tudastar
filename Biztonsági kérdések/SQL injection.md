@@ -1,9 +1,13 @@
+# SQL injection
+
 Az SQL injection egy veszélyes biztonsági sebezhetőség, amely lehetővé teszi a támadók számára, hogy rosszindulatú SQL utasításokat futtassanak egy adatbázis-vezérelt alkalmazásban. Íme a legfontosabb tudnivalók erről a támadási módszerről:
+
 ## Az SQL injection működése
 
 - A támadó speciálisan kialakított adatokat ad meg egy alkalmazás beviteli mezőjében (pl. bejelentkezési űrlap, keresőmező).
 - Ezek az adatok úgy vannak megformálva, hogy módosítsák vagy kiegészítsék az eredeti SQL lekérdezést.
 - Ha az alkalmazás nem megfelelően kezeli a felhasználói bevitelt, a rosszindulatú kód végrehajtódik az adatbázison.
+
 ## Következmények
 
 Az SQL injection támadások lehetővé tehetik a támadók számára, hogy:
@@ -12,6 +16,7 @@ Az SQL injection támadások lehetővé tehetik a támadók számára, hogy:
 - Módosítsák vagy töröljék az adatbázis tartalmát
 - Adminisztrátori jogosultságokat szerezzenek
 - Teljes hozzáférést nyerjenek az adatbázisszerverhez
+
 ## Védekezési módszerek
 
 1. Prepared statement használata paraméterezett lekérdezésekkel
@@ -23,9 +28,11 @@ Bővebben a prepared statement-ről:
 [[../PHP haladó/Mi a prepared statement és miért fontos használni]]
 
 Az SQL injection elleni védekezés kulcsfontosságú a webalkalmazások biztonságának megőrzésében. A fejlesztőknek mindig ügyelniük kell arra, hogy megfelelően kezeljék a felhasználói bevitelt, és alkalmazzák a bevált biztonsági gyakorlatokat az adatbázis-lekérdezések során.
+
 ## Az SQL injection egy gyakorlati példája
 
 Egy sikeres SQL-injekció a következőképpen működik:
+
 ### A támadás folyamata
 
 1. **Sebezhető pont azonosítása**: A támadó olyan beviteli mezőket keres az alkalmazásban, amelyek nem megfelelően kezelik a felhasználói inputot. Ezek lehetnek bejelentkezési űrlapok, keresőmezők vagy URL-paraméterek.
@@ -57,6 +64,7 @@ Egy sikeres SQL-injekció a következőképpen működik:
 ## Az alkalmazás tesztelése
 
 Az SQL-injekció felfedezése egy webalkalmazásban több módszerrel is lehetséges. Íme néhány hatékony technika:
+
 ### Manuális tesztelés
 
 **Szisztematikus beviteli tesztek**:
@@ -73,18 +81,21 @@ Az SQL-injekció felfedezése egy webalkalmazásban több módszerrel is lehets�
 - INSERT utasítások beszúrt értékeinek vizsgálata.
 - SELECT utasítások tábla- és oszlopneveinek tesztelése.
 - ORDER BY záradékok ellenőrzése SELECT utasításokban.
+
 ### Automatizált eszközök használata
 
 Ilyen eszközök például:
-- [[SQLMap]]
+- [SQLMap](./SQLMap.md)
 - Burp Scanner
 - OWASP ZAP
+
 ### Monitorozás és naplózás
 
 - Valós idejű adatbázis-tevékenység figyelése.
 - Szokatlan viselkedések és anomáliák azonosítása.
 - HTTP-forgalom elemzése SQL-töredékek után kutatva.
 - Adatbázis-hibák monitorozása.
+
 ### Web Application Firewall (WAF) használata
 
 A WAF-ok képesek szűrni és blokkolni a gyanús SQL-lekérdezéseket tartalmazó HTTP-kéréseket.

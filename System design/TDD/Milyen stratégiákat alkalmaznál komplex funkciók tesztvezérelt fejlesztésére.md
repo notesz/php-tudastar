@@ -1,3 +1,5 @@
+# Milyen stratégiákat alkalmaznál komplex funkciók tesztvezérelt fejlesztésére
+
 A komplex funkciók tesztvezérelt fejlesztésére (TDD) több hatékony stratégiát is alkalmazhatunk:
 
 ## Fokozatos megközelítés

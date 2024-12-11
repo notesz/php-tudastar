@@ -1,6 +1,9 @@
+# CORS
+
 A Cross-Origin Resource Sharing (CORS) egy olyan mechanizmus, amely lehetővé teszi a webböngészők számára, hogy biztonságosan megkerüljék az azonos eredetű (same-origin) szabályt, és hozzáférjenek más domainek erőforrásaihoz.
 
 A CORS lényegében egy kontrollált módja annak, hogy egy weboldal más domainek erőforrásait használhassa.
+
 ## Működése
 
 A CORS a következőképpen működik:

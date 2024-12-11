@@ -1,4 +1,7 @@
+# CQRS (Command Query Responsibility Segregation)
+
 A CQRS (Command Query Responsibility Segregation) egy szoftverarchitektúrai minta, amely szétválasztja az adatok olvasási és írási műveleteit egy rendszerben. A CQRS lényege, hogy külön kezeli a parancsokat (commands) és a lekérdezéseket (queries).
+
 ## Fő elemek
 
 **Parancsok (Commands)**:

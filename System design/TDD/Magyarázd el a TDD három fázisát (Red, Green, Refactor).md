@@ -1,6 +1,8 @@
+# Magyarázd el a TDD három fázisát (Red, Green, Refactor)
+
 A **Red, Green, Refactor** ciklus a Tesztvezérelt Fejlesztés (TDD) alapvető folyamata, amely három lépésből áll. Ez a megközelítés biztosítja, hogy a kódot mindig tesztek vezéreljék, és az tiszta, jól strukturált legyen. Íme a részletek:
 
-## **1. Red (Piros): Írj egy tesztet, ami elbukik**
+## 1. Red (Piros): Írj egy tesztet, ami elbukik
 
 - Első lépésként megírsz egy tesztet, amely a fejlesztendő funkció viselkedését definiálja.
 - Mivel még nem létezik a funkció implementációja, a tesztnek el kell buknia.
@@ -19,7 +21,8 @@ class CalculatorTest extends PHPUnit\Framework\TestCase {
 ```
 
 A `Calculator` osztály és az `add` metódus még nem létezik, így a teszt elbukik.
-## **2. Green (Zöld): Készítsd el a minimális kódot, hogy a teszt sikeres legyen**
+
+## 2. Green (Zöld): Készítsd el a minimális kódot, hogy a teszt sikeres legyen
 
 - A cél itt az, hogy csak annyi kódot írj meg, ami szükséges ahhoz, hogy a teszt sikeresen lefusson.
 - Nem kell tökéletes vagy végleges megoldást készíteni; az egyszerűségre és gyors eredményre kell törekedni.
@@ -37,7 +40,8 @@ class Calculator {
 ```
 
 Ezzel a minimális implementációval a teszt már zöld lesz.
-## **3. Refactor (Refaktorálás): Javítsd a kódot minőségileg úgy, hogy a tesztek továbbra is sikeresek legyenek**
+
+## 3. Refactor (Refaktorálás): Javítsd a kódot minőségileg úgy, hogy a tesztek továbbra is sikeresek legyenek
 
 - Miután a tesztek sikeresen lefutottak, refaktoráld a kódot annak érdekében, hogy tiszta, olvasható és hatékony legyen.
 - Fontos, hogy minden refaktorálás után újra lefuttasd a teszteket annak biztosítására, hogy semmi ne törjön el.
@@ -60,6 +64,7 @@ class Calculator {
 ```
 
 A refaktorálás során hozzáadhatunk újabb funkciókat vagy javíthatjuk az osztály struktúráját.
+
 ## Összegzés
 
 A **Red-Green-Refactor** ciklus lényege:

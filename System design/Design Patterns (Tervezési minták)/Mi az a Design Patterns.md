@@ -1,3 +1,5 @@
+# Mi az a Design Pattern
+
 A Design Pattern (Tervezési Minta) egy általános, újrafelhasználható megoldás gyakran előforduló problémákra a szoftverfejlesztésben. Ezek nem konkrét kódrészletek, hanem inkább iránymutatások arra, hogyan lehet bizonyos problémákat hatékonyan megoldani.
 
 ## Design Pattern-ek jellemzői:

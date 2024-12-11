@@ -1,4 +1,7 @@
+# API throttling és Rate Limiting
+
 Az API throttling egy olyan technika, amely szabályozza az API-khoz érkező kérések számát és sebességét. A throttling fő célja az API-k teljesítményének és stabilitásának megőrzése, valamint a méltányos erőforrás-elosztás biztosítása a felhasználók között.
+
 ## A Throttling működése
 
 - Ideiglenesen blokkolja azokat a klienseket, amelyek túllépik az engedélyezett kérési rátát.

@@ -1,3 +1,5 @@
+# Adapter
+
 Az **Adapter pattern** (Adapter minta) egy szerkezeti tervezési minta, amely lehetővé teszi, hogy két inkompatibilis interfész együttműködjön. Az Adapter minta "híd" szerepet tölt be a meglévő kód és az új interfészek között, így lehetővé téve a régi és az új rendszerek közötti integrációt.
 
 ## Hogyan működik?
