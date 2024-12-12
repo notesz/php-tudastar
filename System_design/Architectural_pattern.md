@@ -8,14 +8,21 @@ A legegyszerűbben úgy gondolkodhatunk erről, hogy a szoftvert egy kész Lego-
 
 ## A 10 legfontosabb Software Architecture Patterns
 
+### 1. Layered Pattern
 
-### 1. Layered Pattern (AKA N-Tier Architecture)
+- [Layered Pattern (más néven N-Tier Architecture)](./Architectural_pattern/Layered_Pattern.md)
 
 ### 2. Client-Server Pattern
 
+- [Client-Server Pattern](./Architectural_pattern/Client-Server_Pattern.md)
+
 ### 3. Microservice Architecture
 
-### 4. Event Driven Architecture (Event Driven Design & Message Driven Design)
+- [Microservice Architecture](./Architectural_pattern/Microservice_Architecture.md)
+
+### 4. Event Driven Architecture
+
+- [Event Driven Architecture (Event Driven Design & Message Driven Design)](./Architectural_pattern/Event_Driven_Architecture.md)
 
 ### 5. Model-View-Controller (MVC)
 
@@ -23,12 +30,13 @@ A legegyszerűbben úgy gondolkodhatunk erről, hogy a szoftvert egy kész Lego-
 
 ### 6. Service-Oriented Architecture (SOA)
 
+- [Service-Oriented Architecture (SOA)](./Architectural_pattern/Service-Oriented_Architecture.md)
+
 ### 7. Repository Pattern
+
+- [Repository Pattern](./Architectural_pattern/Repository_Pattern.md)
 
 ### 8. CQRS (Command Query Responsibility Segregation)
 
 - [CQRS](../System_design/Software_Design_Principles/CQRS.md)
 - [A CQRS gyakorlati alkalmazása](../System_design/Software_Design_Principles/A_CQRS_gyakorlati_alkalmazasa.md)
-
-
-Forrás: [medium.com](https://medium.com/@the_nick_morgan/what-are-the-10-most-common-software-architecture-patterns-faa4b26e8808)
