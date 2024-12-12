@@ -34,6 +34,7 @@
 - [CI/CD (Continuous Integration, Continuous Deployment)](./System_design/CICD.md)
 - [Software Design Principles (Szoftvertervezési elvek)](./System_design/Software_Design_Principles.md)
 - [Design Patterns (Tervezési minták)](./System_design/Design_Patterns.md)
+- [Architectural pattern](./System_design/Architectural_pattern.md)
 
 ## Hibakezelés
 
@@ -53,8 +54,15 @@
 
 - [CORS](./API/CORS.md)
 - [CSP](./API/CSP.md)
-- [JWT (JSON Web Token)](./API/JWT.md)
 - [Throttling és Rate Limiting](./API/Throttling_es_Rate_Limiting.md)
+
+## Authentikáció
+
+- [Basic Auth](./Authentikacio/Basic_Auth.md)
+- [JWT (JSON Web Token)](./Authentikacio/JWT.md)
+- [OAuth](./Authentikacio/OAuth.md)
+- [Token](./Authentikacio/Token.md)
+- [Cookie Based Auth](./Authentikacio/Cookie_Based_Auth.md)
 
 ## PHP verziók
 
