@@ -20,8 +20,8 @@ Például:
 
 ```json
 {
-    status : "success",
-    data : {
+    "status" : "success",
+    "data" : {
         "post" : { 
             "id" : 1, 
             "title" : "A blog post", 
@@ -35,8 +35,8 @@ vagy:
 
 ```json
 {
-    status : "success",
-    data : null
+    "status" : "success",
+    "data" : null
 }
 ```
 
