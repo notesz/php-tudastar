@@ -21,20 +21,20 @@ A PSR-eket a PHP közösség tagjai javasolják és szavazzák meg egy meghatár
 
 ## Elfogadott PSR-ek
 
-- **PSR-1**: Basic Coding Standard
-- **PSR-3**: Logger Interface
-- **PSR-4**: Autoloading Standard
-- **PSR-6**: Caching Interface
-- **PSR-7**: HTTP Message Interface
-- **PSR-11**: Container Interface
-- **PSR-12**: Extended Coding Style Guide
-- **PSR-13**: Hypermedia Links
-- **PSR-14**: Event Dispatcher
-- **PSR-15**: HTTP Handlers
-- **PSR-16**: Simple Cache
-- **PSR-17**: HTTP Factories
-- **PSR-18**: HTTP Client
-- **PSR-20**: Clock
+- **PSR-1**: [Basic Coding Standard](https://www.php-fig.org/psr/psr-1/)
+- **PSR-3**: [Logger Interface](https://www.php-fig.org/psr/psr-3/)
+- **PSR-4**: [Autoloading Standard](https://www.php-fig.org/psr/psr-4/)
+- **PSR-6**: [Caching Interface](https://www.php-fig.org/psr/psr-6/)
+- **PSR-7**: [HTTP Message Interface](https://www.php-fig.org/psr/psr-7/)
+- **PSR-11**: [Container Interface](https://www.php-fig.org/psr/psr-11/)
+- **PSR-12**: [Extended Coding Style Guide](https://www.php-fig.org/psr/psr-12/)
+- **PSR-13**: [Hypermedia Links](https://www.php-fig.org/psr/psr-13/)
+- **PSR-14**: [Event Dispatcher](https://www.php-fig.org/psr/psr-14/)
+- **PSR-15**: [HTTP Handlers](https://www.php-fig.org/psr/psr-15/)
+- **PSR-16**: [Simple Cache](https://www.php-fig.org/psr/psr-16/)
+- **PSR-17**: [HTTP Factories](https://www.php-fig.org/psr/psr-17/)
+- **PSR-18**: [HTTP Client](https://www.php-fig.org/psr/psr-18/)
+- **PSR-20**: [Clock](https://www.php-fig.org/psr/psr-20/)
 
 ## PSR megfelelés
 
