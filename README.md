@@ -2,13 +2,15 @@
 
 ## Általános kérdések
 
-- PHP verziók
+- [PHP verziók](./altalanos_kerdesek/PHP_verziok.md)
 - [Legnépszerűbb Framework-ök](./altalanos_kerdesek/Frameworkok.md)
 
 ## Optimalizálás és teljesítmény
 
 - Skálázhatóság
 - Terheléselosztás
+- Cache
+- Queue
 - Elosztott adatbázisrendszerek
 - Master-Slave architektúra
 - Server-Serverless architektúra
