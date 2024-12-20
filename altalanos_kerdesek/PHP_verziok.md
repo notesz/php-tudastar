@@ -47,7 +47,9 @@ Eredeti nevén PHP Tools (Personal Home Page Tools). A „PHP” név első hasz
 | 8.3 | Típusos osztálykonstansok, `json_validate()`, `mb_str_pad()` [Bővebben](https://www.php.net/ChangeLog-8.php) |
 | 8.4 | Property Hooks, új tömb függvények, új multibyte-os string függvények, property hooks [Bővebben](https://www.php.net/ChangeLog-8.php) | 
 
-### De hova lett a PHP6?
+## Érdekességek
+
+### Hova lett a PHP6?
 
 A PHP6 fejlesztése elkezdődött ugyan, de soha nem került kiadásra. 2010 márciusában hivatalosan is felhagytak vele.
 
@@ -63,3 +65,25 @@ Ennek több oka is volt:
 3. **Lassú fejlesztés**: A Unicode problémák miatt a fejlesztés lelassult és végül elakadt.
 
 A PHP6-ba tervezett funkciók egy része végül a PHP 5.3-as és 5.4-es verziókba került beépítésre. A következő fő verzió a PHP7 lett, hogy elkerüljék a zavart a soha meg nem jelent PHP6-tal kapcsolatban.
+
+### HHVM
+
+A Facebook fejlesztette ki a PHP futtatására a HHVM (HipHop Virtual Machine) nyílt forráskódú virtuális gépet.
+
+Hivatalos oldal: [HHVM](https://hhvm.com)
+
+Fő jellemzői:
+
+- Just-in-time (JIT) fordítást használ a kód futtatásához, ami jelentősen növeli a teljesítményt a hagyományos PHP értelmezőkhöz képest.
+
+- A PHP kódot először egy köztes bytecode-ra (HHBC) fordítja, majd ezt alakítja át x86-64 gépi kódra futásidőben.
+
+- Támogatja a Hack programozási nyelvet, amely a PHP egy továbbfejlesztett változata statikus típusokkal.
+
+- Jelentős teljesítménynövekedést és erőforrás-hatékonyságot biztosít a PHP alkalmazásoknak. A Facebook szerint akár 2,5-szeres gyorsulás és 50%-os CPU-használat csökkenés is elérhető vele.
+
+- Kompatibilis a legtöbb PHP kóddal és keretrendszerrel, bár vannak kisebb eltérések.
+
+- Beépített profilozó és hibakereső eszközöket tartalmaz.
+
+A HHVM célja, hogy egyesítse a dinamikus nyelvek rugalmasságát a statikusan fordított nyelvek teljesítményével, így téve hatékonyabbá a nagy PHP alkalmazások futtatását.
