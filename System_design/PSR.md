@@ -21,20 +21,20 @@ A PSR-eket a PHP közösség tagjai javasolják és szavazzák meg egy meghatár
 
 ## Elfogadott PSR-ek
 
-- **PSR-1**: Alapvető kódolási szabvány
-- **PSR-3**: Naplózó interfész
-- **PSR-4**: Automatikus betöltési szabvány
-- **PSR-6**: Gyorsítótár interfész
-- **PSR-7**: HTTP üzenet interfész
-- **PSR-11**: Konténer interfész
-- **PSR-12**: Kiterjesztett kódolási stílus útmutató
-- **PSR-13**: Hipermédiakapcsolatok
-- **PSR-14**: Eseménykezelő
-- **PSR-15**: HTTP kezelők
-- **PSR-16**: Egyszerű gyorsítótár
-- **PSR-17**: HTTP gyárak
-- **PSR-18**: HTTP kliens
-- **PSR-20**: Óra
+- **PSR-1**: Basic Coding Standard
+- **PSR-3**: Logger Interface
+- **PSR-4**: Autoloading Standard
+- **PSR-6**: Caching Interface
+- **PSR-7**: HTTP Message Interface
+- **PSR-11**: Container Interface
+- **PSR-12**: Extended Coding Style Guide
+- **PSR-13**: Hypermedia Links
+- **PSR-14**: Event Dispatcher
+- **PSR-15**: HTTP Handlers
+- **PSR-16**: Simple Cache
+- **PSR-17**: HTTP Factories
+- **PSR-18**: HTTP Client
+- **PSR-20**: Clock
 
 ## PSR megfelelés
 
