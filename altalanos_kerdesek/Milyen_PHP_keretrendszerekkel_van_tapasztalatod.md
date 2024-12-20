@@ -1,3 +1,0 @@
-# Milyen PHP keretrendszerekkel van tapasztalatod és melyiket preferálod és miért
-
-…

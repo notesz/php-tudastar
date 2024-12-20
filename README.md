@@ -2,13 +2,16 @@
 
 ## Általános kérdések
 
-- [Hogyan tartod naprakészen a PHP és webfejlesztési tudásodat](./altalanos_kerdesek/Hogyan_tartod_naprakeszen_a_PHP_es_webfejlesztesi_tudasodat.md)
-- [Milyen PHP keretrendszerekkel van tapasztalatod](./altalanos_kerdesek/Milyen_PHP_keretrendszerekkel_van_tapasztalatod.md)
+- [Legnépszerűbb Framework-ök](./altalanos_kerdesek/Frameworkok.md)
 
 ## Optimalizálás és teljesítmény
 
-- Hogyan optimalizálnál egy PHP szkriptet 10 000 egyidejű felhasználó kezelésére?
-- Milyen módszereket használnál egy PHP alkalmazás teljesítményének javítására?
+- Skálázhatóság
+- Terheléselosztás
+- Elosztott adatbázisrendszerek
+- Master-Slave architektúra
+- Server-Serverless architektúra
+- CDN-ek
 
 ## Haladó PHP koncepciók
 

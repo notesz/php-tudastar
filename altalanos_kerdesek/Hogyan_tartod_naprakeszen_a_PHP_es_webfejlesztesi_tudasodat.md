@@ -1,3 +1,0 @@
-# Hogyan tartod naprakészen a PHP és webfejlesztési tudásodat
-
-…
