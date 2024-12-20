@@ -2,6 +2,7 @@
 
 ## Általános kérdések
 
+- PHP verziók
 - [Legnépszerűbb Framework-ök](./altalanos_kerdesek/Frameworkok.md)
 
 ## Optimalizálás és teljesítmény
@@ -66,10 +67,3 @@
 - [OAuth](./Authentikacio/OAuth.md)
 - [Token](./Authentikacio/Token.md)
 - [Cookie Based Auth](./Authentikacio/Cookie_Based_Auth.md)
-
-## PHP verziók
-
-- 1.0.0 :)
-- 5.6.*
-- 7.*
-- 8.*
