@@ -1,4 +1,4 @@
-# PHP kérdések-válaszok
+# PHP tudástár
 
 ## Általános kérdések
 
@@ -56,16 +56,17 @@
 - [SOAP](./API/SOAP.md)
 - [GraphQL](./API/GraphQL.md)
 
+## Authentikáció
+
+- [Basic Auth](./Authentikacio/Basic_Auth.md)
+- [JWT (JSON Web Token)](./Authentikacio/JWT.md)
+- [PASETO (Platform-Agnostic SEcurity TOkens)](./Authentikacio/Paseto.md)
+- [OAuth](./Authentikacio/OAuth.md)
+- [Token](./Authentikacio/Token.md)
+- [Cookie Based Auth](./Authentikacio/Cookie_Based_Auth.md)
+
 ### API biztonsági kérdések
 
 - [CORS](./API/CORS.md)
 - [CSP](./API/CSP.md)
 - [Throttling és Rate Limiting](./API/Throttling_es_Rate_Limiting.md)
-
-## Authentikáció
-
-- [Basic Auth](./Authentikacio/Basic_Auth.md)
-- [JWT (JSON Web Token)](./Authentikacio/JWT.md)
-- [OAuth](./Authentikacio/OAuth.md)
-- [Token](./Authentikacio/Token.md)
-- [Cookie Based Auth](./Authentikacio/Cookie_Based_Auth.md)
