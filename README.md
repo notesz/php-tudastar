@@ -65,7 +65,7 @@
 - [Token](./Authentikacio/Token.md)
 - [Cookie Based Auth](./Authentikacio/Cookie_Based_Auth.md)
 
-### API biztonsági kérdések
+## API biztonsági kérdések
 
 - [CORS](./API/CORS.md)
 - [CSP](./API/CSP.md)
